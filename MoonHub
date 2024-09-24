@@ -10,7 +10,7 @@ MakeWindow({
     Title = "Key System",
     Description = "Get Moon Hub Key",
     KeyLink = "",
-    Keys = {"MoonHubOnTOP"},
+    Keys = {"1234"},
     Notifi = {
       Notifications = true,
       CorrectKey = "Running the Script...",
