@@ -8,7 +8,7 @@ MakeWindow({
   Key = {
     KeySystem = true,
     Title = "Key System",
-    Description = "Get Moon Hub Key",
+    Description = "",
     KeyLink = "",
     Keys = {"1234"},
     Notifi = {
@@ -26,22 +26,22 @@ local section = AddSection(Main, {"Teste"})
 
 local Slider = AddSlider(Main, {
   Name = "Walkspeed",
-  MinValue = 10,
+  MinValue = 50,
   MaxValue = 100,
   Default = 16,
   Increase = 1,
   Callback = function(Value)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
   end
 })
 
 local Slider = AddSlider(Main, {
   Name = "jump power",
-  MinValue = 10,
+  MinValue = 16,
   MaxValue = 100,
   Default = 50,
   Increase = 1,
   Callback = function(Value)
-    game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
   end
 })
